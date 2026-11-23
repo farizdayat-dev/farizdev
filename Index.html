@@ -1,0 +1,314 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Indah Karya BWI</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="img/logo.png">
+<body>
+
+<header>
+    <div class="container navbar">
+        <div class="logo">INDAH KARYA <span><marquee scrollamount="20">BANYUWANGI</marquee></span></div>
+        
+        <nav>
+            <a href="#home">Beranda</a>
+            <a href="#katalog">Katalog</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+    </div>
+</header>
+
+
+
+
+
+<!-- POP UP IKLAN PERTAMA -->
+<div class="popup-overlay" id="popupIklan1">
+    <div class="popup-box">
+
+        <button type="button" class="popup-close" data-close="1">
+            &times;
+        </button>
+
+        <a
+           target="_blank"
+           rel="noopener noreferrer"
+           class="popup-image-link">
+
+            <img src="img/lowongan.jpg" alt="Iklan Pertama">
+        </a>
+
+        <div class="popup-content">
+            <a href="https://wa.me/6281132220666"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="popup-button">
+                Hubungi Kami
+            </a>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- POP UP IKLAN KEDUA -->
+<div class="popup-overlay" id="popupIklan2" style="display:none;">
+    <div class="popup-box">
+
+        <button type="button" class="popup-close" data-close="2">
+            &times;
+        </button>
+
+        <a
+           target="_blank"
+           rel="noopener noreferrer"
+           class="popup-image-link">
+
+            <img src="img/lowongan2.heic" alt="Iklan Kedua">
+        </a>
+
+        <div class="popup-content">
+            <a href="https://wa.me/6281132220666"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="popup-button">
+                Hubungi Kami
+            </a>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- POP UP IKLAN KETIGA -->
+<div class="popup-overlay" id="popupIklan3" style="display:none;">
+    <div class="popup-box">
+
+        <button type="button" class="popup-close" data-close="3">
+            &times;
+        </button>
+
+        <a
+           target="_blank"
+           rel="noopener noreferrer"
+           class="popup-image-link">
+
+            <img src="img/lowongan3.heic" alt="Iklan Ketiga">
+        </a>
+
+        <div class="popup-content">
+            <a href="https://wa.me/6281132220666"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="popup-button">
+                Hubungi Kami
+            </a>
+        </div>
+
+    </div>
+</div>
+
+
+
+<section class="hero" id="home">
+    <div class="container">
+        <div class="hero-content">
+            <h1>
+                Temukan Produk <span>Berkualitas</span>
+                Untuk Kebutuhan Anda.
+            </h1>
+
+            <p>
+                Kami menyediakan berbagai pilihan produk berkualitas
+                terlengkap, dan terercaya untuk kebutuhan anda.
+            </p>
+
+            <a href="#katalog" class="hero-btn">
+                Lihat Katalog Produk →
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="catalog" id="katalog">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Katalog Produk</h2>
+            <p>Jelajahi berbagai pilihan produk unggulan kami.</p>
+        </div>
+
+        <div class="search-area">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Cari nama produk..."
+            >
+        </div>
+
+        <div class="filters">
+            <button class="filter-btn active" data-category="Semua">
+                Semua Produk
+            </button>
+
+            <button class="filter-btn" data-category="Tools">
+                Tools
+            </button>
+
+            <button class="filter-btn" data-category="Skrup">
+                Skrup
+            </button>
+
+            <button class="filter-btn" data-category="Pompa">
+                Pompa
+            </button>
+
+            <button class="filter-btn" data-category="Mowilex">
+                Mowilex
+            </button>
+
+            <button class="filter-btn" data-category="Dulux">
+                Dulux
+            </button>
+
+            <button class="filter-btn" data-category="Propan">
+                Propan
+            </button>
+
+            <button class="filter-btn" data-category="Sanlex">
+                Sanlex
+            </button>
+
+            
+            </button>
+        </div>
+
+        <div class="product-grid" id="productGrid"></div>
+
+    </div>
+</section>
+
+<div class="filter-buttons">
+
+
+
+            <!-- Tombol kategori Anda -->
+        </div>
+
+        <!-- AREA SCROLLING PRODUK -->
+        <div id="productGrid"></div>
+
+<section class="kontak" id="kontak">
+    <div class="container">
+
+        <div class="contact-heading">
+            <h2>Hubungi Kami</h2>
+            <p>Kami siap membantu Anda mendapatkan produk yang dibutuhkan.</p>
+        </div>
+
+        <div class="contact-layout">
+
+
+
+
+            <!-- KOLOM KIRI: KONTAK -->
+            <div class="contact-left">
+
+                <div class="contact-info">
+
+                    <a href="https://www.google.com/maps/search/?api=1&query=Toko+Indah+Karya+Banyuwangi"
+                       target="_blank" class="info-item">
+
+                        <div class="info-icon"><img src="img/maps.webp" alt="Logo" width="24" height="24"></div>
+                        <div class="info-text">
+                            <h4>Lokasi</h4>
+                            <p></p>
+                        </div>
+                        <span class="info-arrow">↗</span>
+                    </a>
+
+                    <a href="https://www.instagram.com/tokobangunan.indahkarya.bwi/"
+                       target="_blank" class="info-item">
+
+                        <div class="info-icon"><img src="img/ilogo.png" alt="Logo" width="24" height="24"></div>
+                        <div class="info-text">
+                            <h4>Instagram</h4>
+                            <p></p>
+                        </div>
+                        <span class="info-arrow">↗</span>
+                    </a>
+
+                    <a href="https://www.tiktok.com/@tkindahkarya1bwi"
+                       class="info-item">
+
+                        <div class="info-icon"><img src="img/ttlogo.webp" alt="Logo" width="24" height="24"></div>
+                        <div class="info-text">
+                            <h4>WhatsApp</h4>
+                            <p></p>
+                        </div>
+                        <span class="info-arrow">↗</span>
+                    </a>
+
+                    <a href="https://wa.me/6281132220666"
+                       target="_blank" class="info-item">
+
+                        <div class="info-icon"><img src="img/walogo.jpg" alt="Logo" width="24" height="24"></div>
+                        <div class="info-text">
+                            <h4>WhatsApp</h4>
+                            <p></p>
+                        </div>
+                        <span class="info-arrow">↗</span>
+                    </a>
+
+                </div>
+            </div>
+
+
+            <!-- KOLOM KANAN: MAPS -->
+            <div class="contact-right">
+
+                <div class="map-header">
+                    <div>
+                        <span class="map-label">TEMUKAN KAMI</span>
+                        <h3>TB INDAH KARYA BANYUWANGI</h3>
+                    </div>
+                    <span class="map-pin">📍</span>
+                </div>
+
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d621.9322509435489!2d114.37485996381031!3d-8.200367200544251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd14518c7d4f1b5%3A0xcfb81c6fa8c8198a!2sToko%20Indah%20Karya%20Banyuwangi!5e0!3m2!1sid!2sid!4v1794148152983!5m2!1sid!2sid"
+                        loading="lazy"
+                        allowfullscreen
+                        referrerpolicy="strict-origin-when-cross-origin">
+                    </iframe>
+                </div>
+
+                <a href="https://www.google.com/maps/search/?api=1&query=Toko+Indah+Karya+Banyuwangi"
+                   target="_blank" class="map-button">
+                    Lihat Petunjuk Lokasi
+                    <span>↗</span>
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <div class="container">
+        <h3>INDAH KARYA BWI</h3>
+        <p>Solusi Produk Berkualitas, Terlengkap, Dan Termurah untuk Kebutuhan Anda.</p>
+        <p>© 2026 Indah Karya BWI.</p>
+    </div>
+</footer>
+</head>
+</body>
+</html>
