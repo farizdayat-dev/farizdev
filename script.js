@@ -300,21 +300,21 @@ const products = [
 
 
     {
-        name: "Bor NRT-PRO 0816HD",
+        name: "Mesin Bor NRT-PRO 0816HD",
         category: "Tools",
         price: "Rp ???.000",
         description: "• Daya Listrik 800W<br>• Kepala Bor 16mm<br>• 550Rpm",
         image: "img/nrt0816.jfif"
     },
     {
-        name: "Plenner NRT-PRO 2900HD",
+        name: "Mesin Serut NRT-PRO 2900HD",
         category: "Tools",
         price: "Rp ???.000",
         description: "• Daya Listrik 580w<br>• Lebar Pisau 82mm<br>• 16.000Rpm",
         image: "img/nrt2900.jpg"
     },
     {
-        name: "Paku Tembak NRT-PRO F30 HD",
+        name: "Alat Paku Tembak NRT-PRO F30 HD",
         category: "Tools",
         price: "Rp ???.000",
         description: "• Jenis Paku F10,F15,F20,F25,F30<br>• Kapasitas 100Pcs<br>• Tekanan 60-100Psi",
@@ -342,7 +342,7 @@ const products = [
         image: "img/nrt2414.jfif"
     },
     {
-        name: "Trimmer NRT-PRO 3709 HD",
+        name: "Mesin Trimmer NRT-PRO 3709 HD",
         category: "Tools",
         price: "Rp ???.000",
         description: "• Daya Listrik 530W<br>• 35.000Rpm",
