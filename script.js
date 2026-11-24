@@ -136,7 +136,8 @@ const products = [
         price: "Rp ???.000",
         description: "• Gagang Besi",
         image: "img/j3.png"
-    },{
+    },
+    {
         name: "JASON Gunting Dahan 8.5Inc",
         category: "Tools",
         price: "Rp ???.000",
@@ -156,7 +157,8 @@ const products = [
         price: "Rp ???.000",
         description: "• 30MM - 120MM",
         image: "img/j6.png"
-    },{
+    },
+    {
         name: "JASON Mata Bor Multi Fungsi",
         category: "Tools",
         price: "Rp ???.000",
@@ -169,13 +171,15 @@ const products = [
         price: "Rp ???.000",
         description: "• 4MM - 32MM",
         image: "img/j8.png"
-    },{
+    },
+    {
         name: "JASON Mata Bor Besi Set",
         category: "Tools",
         price: "Rp ???.000",
         description: "• 1MM - 10MM",
         image: "img/j9.png"
-    },{
+    },
+    {
         name: "JASON Nozzle Air",
         category: "Tools",
         price: "Rp ???.000",
@@ -234,28 +238,28 @@ const products = [
 
     /////////////////////  NRT-PRO   BATRAI  ///////////////////////////
     {
-        name: "Mesin Bor Batrai NRT-PRO 330DC-SET",
+        name: "Mesin Bor NRT-PRO 330DC-SET",
         category: "Tools",
         price: "Rp ???.000",
         description: "• CORDLESS Drill, 10mm<br>• Lithium-Ion, 12V,2A<br>• 1= 0 – 350 Rpm / 2= 0 – 1300 Rpm",
         image: "img/nrt330.jpg"
     },
     {
-        name: "Mesin Bor Batrai NRT-PRO 340DC-SET",
+        name: "Mesin Bor NRT-PRO 340DC-SET",
         category: "Tools",
         price: "Rp ???.000",
         description: "• CORDLESS Drill 10mm<br>• Lithium-Ion 20V,2A<br>• 1=0 – 450 Rpm/ 2= 0 – 1700 Rpm",
         image: "img/nrt340.jpg"
     },
     {
-        name: "Mesin Bor Batrai NRT-PRO 743DC",
+        name: "Mesin Bor NRT-PRO 743DC",
         category: "Tools",
         price: "Rp ?.???.000",
         description: "• BRUSHLESS 13mm<br>• Lithium-Ion, 20v,4A<br>• 1= 0-450 Rpm / 2= 0-1950Rpm.",
         image: "img/nrt743.jpg"
     },
     {
-        name: "Mesin Grenda Batrai NRT-PRO TG 99DC",
+        name: "Mesin Grenda NRT-PRO TG 99DC",
         category: "Tools",
         price: "Rp ?.???.000",
         description: "• BRUSHLESS 4Ins<br>• Lithium-Ion, 20V, 4A<br>• 8500Rpm.",
@@ -269,7 +273,7 @@ const products = [
         image: "img/nrt58.jfif"
     },
     {
-        name: "Mesin Gergaji NRT-PRO GV 40-DC",
+        name: "Mesin Poles NRT-PRO GV 40-DC",
         category: "Tools",
         price: "Rp ???.000",
         description: "• BRUSHLESS 4Ins<br>• Lithium-Ion, 12V<br>• 1= 0-2500 / 2= 0-7500.",
