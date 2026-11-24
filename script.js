@@ -283,7 +283,7 @@ const products = [
         image: "img/nrt65.jpg"
     },
     {
-        name: "Mesin Bor NRT-PRO 83DC",
+        name: "Mesin Gergaji NRT-PRO 83DC",
         category: "Tools",
         price: "Rp ???.000",
         description: "• Corldless Reciprocating saw<br>• Lithium-Ion, 20v<br>• 2.700Spm (Strokes per menit).",
